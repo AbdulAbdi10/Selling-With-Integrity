@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selling with Integrity: The Islamic Guide to Lawful Earning</title>
+
+  <style>
+    :root {
+      --bg-page: #f3f4f7;
+      --bg-box: #ffffff;
+      --accent: #176b87;
+      --accent-soft: #e1eff5;
+      --text-main: #222222;
+      --text-muted: #666666;
+      --border-soft: #dde2ea;
+      --shadow-soft: 0 14px 40px rgba(15, 23, 42, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #f9fafb, #e5e7eb 55%, #d1d5db);
+      color: var(--text-main);
+      line-height: 1.7;
+    }
+
+    /* ================= HEADER ================= */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(14px);
+      background: linear-gradient(to right, rgba(15,23,42,.96), rgba(30,64,175,.94));
+      color: #fff;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+
+    .site-header-inner {
+      max-width: 1100px;
+      margin: auto;
+      padding: .8rem 1.2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .site-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      display: flex;
+      gap: .5rem;
+    }
+
+    .badge {
+      font-size: .7rem;
+      padding: .15rem .45rem;
+      border-radius: 999px;
+      background: rgba(0,0,0,.4);
+      border: 1px solid rgba(255,255,255,.4);
+    }
+
+    .top-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+    }
+
+    .top-links a {
+      color: #e5f1ff;
+      text-decoration: none;
+      padding: .3rem .65rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.3);
+      font-size: .85rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 1.5rem auto 3rem;
+      padding: 0 1.2rem;
+    }
+
+    /* ================= PAGE ================= */
+    .page {
+      background: var(--bg-box);
+      border-radius: 18px;
+      box-shadow: var(--shadow-soft);
+      padding: 2.6rem 2.8rem;
+      margin: 2rem auto;
+      border: 1px solid rgba(148,163,184,.25);
+      page-break-after: always;
+    }
+
+    h1, h2, h3 {
+      color: #111827;
+      letter-spacing: .02em;
+    }
+
+    p { font-size: 1.02rem; }
+
+    blockquote {
+      margin: 1rem 0;
+      padding: .8rem 1.2rem;
+      border-left: 4px solid var(--accent);
+      background: #f3f6fb;
+      border-radius: 8px;
+      font-style: italic;
+    }
+
+    .back-to-top {
+      margin-top: 1.4rem;
+      text-align: right;
+      font-size: .9rem;
+    }
+
+    .back-to-top a {
+      text-decoration: none;
+      color: var(--accent);
+    }
+
+    /* ================= ISLAMIC COVER ================= */
+    .cover-art {
+      background: linear-gradient(135deg, #0f172a, #0b3c49);
+      color: #f8fafc;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cover-art::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(circle, rgba(255,255,255,.08) 1px, transparent 1px);
+      background-size: 48px 48px;
+      opacity: .4;
+    }
+
+    .cover-inner {
+      position: relative;
+      padding: 5.5rem 2.5rem 6rem;
+    }
+
+    .cover-bismillah {
+      letter-spacing: .28em;
+      text-transform: uppercase;
+      font-size: 1rem;
+      opacity: .85;
+      margin-bottom: 2rem;
+    }
+
+    .cover-title {
+      font-size: 3.2rem;
+      font-weight: 600;
+      letter-spacing: .06em;
+      margin: 0;
+    }
+
+    .cover-subtitle {
+      font-size: 1.3rem;
+      color: #c7e6f2;
+      margin-top: .6rem;
+    }
+
+    .cover-divider {
+      width: 160px;
+      height: 2px;
+      background: linear-gradient(to right, transparent, #7dd3fc, transparent);
+      margin: 2.8rem auto;
+    }
+
+    .cover-author {
+      font-size: 1.05rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .cover-footer {
+      position: absolute;
+      bottom: 1.2rem;
+      width: 100%;
+      font-size: .85rem;
+      opacity: .75;
+    }
+
+    /* ================= PRINT ================= */
+    @media print {
+      body { background: #fff; }
+      .site-header { display: none; }
+      .page {
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+      }
+      .back-to-top { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-title">
+      Selling with Integrity <span class="badge">Online Edition</span>
+    </div>
+    <div class="top-links">
+      <a href="#toc">Contents</a>
+      <a href="#preface">Preface</a>
+      <a href="#chapter-1">Chapters</a>
+      <a href="#appendices">Appendices</a>
+      <a href="#about-author">Author</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= COVER PAGE ================= -->
+<section class="page cover-art" id="cover">
+  <div class="cover-inner">
+    <div class="cover-bismillah">
+      Bismillāh ir-Raḥmān ir-Raḥīm
+    </div>
+
+    <h1 class="cover-title">Selling with Integrity</h1>
+    <div class="cover-subtitle">The Islamic Guide to Lawful Earning</div>
+
+    <div class="cover-divider"></div>
+
+    <div class="cover-author">Abdul Abdi</div>
+
+    <div class="cover-footer">
+      © 2025 · Faith • Commerce • Integrity
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXISTING CONTENT ================= -->
+<!-- FROM HERE DOWN: YOUR ORIGINAL CONTENT IS UNCHANGED -->
+
+<section class="page" id="toc">
+  <h2>Table of Contents</h2>
+  <ol>
+    <li><a href="#preface">Preface</a></li>
+    <li><a href="#chapter-1">Chapter 1 – The Meaning of al-Bayʿ</a></li>
+    <li><a href="#chapter-2">Chapter 2 – The Virtue of Honest Trade</a></li>
+    <li><a href="#chapter-3">Chapter 3 – Fard al-ʿAyn in Commerce</a></li>
+    <li><a href="#chapter-4">Chapter 4 – Valid Sale Conditions</a></li>
+    <li><a href="#chapter-5">Chapter 5 – Prohibited Transactions</a></li>
+    <li><a href="#chapter-6">Chapter 6 – Modern Applications</a></li>
+    <li><a href="#chapter-7">Chapter 7 – Truth & Transparency</a></li>
+    <li><a href="#chapter-8">Chapter 8 – Fair Pricing</a></li>
+    <li><a href="#chapter-9">Chapter 9 – Contracts</a></li>
+    <li><a href="#chapter-10">Chapter 10 – Hisbah</a></li>
+    <li><a href="#chapter-11">Chapter 11 – Charity</a></li>
+    <li><a href="#chapter-12">Chapter 12 – Dispute Resolution</a></li>
+    <li><a href="#chapter-13">Chapter 13 – Ethics Training</a></li>
+    <li><a href="#chapter-14">Chapter 14 – Licensing</a></li>
+    <li><a href="#chapter-15">Chapter 15 – Assessment</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#appendices">Appendices</a></li>
+    <li><a href="#about-author">About the Author</a></li>
+  </ol>
+</section>
